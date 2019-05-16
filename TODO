@@ -1,0 +1,47 @@
+
+Projects:
+  ☐ Task Manager
+Todo:
+  ☐ Users
+    ☐ Registration 
+      ✔ Create activation token
+      ✔ send activation Email
+      ✔ Activate user
+    ☐ Login
+      ✔ Check activated user
+      ✔ Provide token
+    ☐ Logout
+      ✔ Validate token
+      ✔ revoke token
+    ☐ Update Profile
+      ✔ Validate token
+      ✔ Update profile
+    ☐ Forgot password
+      ✔ create and store token for forget password
+      ✔ send forgot password token to their email
+      ✔ validate forgot passwork token
+      ✔ Change password with new one
+  
+  ☐ Managing Tasks
+    ☐ Add task
+      ✔ Validate user
+      ✔ Create schema
+      ✔ insert new tasks
+    ☐ Update task
+      ✔ Validate user
+      ✔ allow only for open tasks
+    ☐ List task
+      ✔ Validate user
+      ✔ List all tasks
+      ✔ Search tasks by status, name, start and end date
+    ☐ Delete task
+      ✔ Validate user
+      ✔ Detele only open tasks
+      
+  ☐ Perfomance and code readablity focus
+      ✔ Make seperate middleware file for auth checking auth.io
+      ✔ Make template for change password flow use pug template
+      
+
+
+
